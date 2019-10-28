@@ -1,0 +1,5 @@
+{
+"wpr": "go run wpr.go record --http_port=8080 --https_port=8081 --host %(host_ip)s test_tinap.wpr",
+"tinap": "tinap --host %(host_ip)s --port 80 --upstream-host %(host_ip)s --upstream-port 8080",
+"tinap+ssl": "tinap --host %(host_ip)s --port 443 --upstream-host %(host_ip)s --upstream-port 8081"
+}
