@@ -47,7 +47,7 @@ SITES_TXT = os.path.join(HERE, "sites.txt")
 
 def main():
     parser = argparse.ArgumentParser(description="acbenchmark")
-    parser.add_argument("--iterations", default=20, help="Number of iterations")
+    parser.add_argument("--iterations", type=int, default=20, help="Number of iterations")
     parser.add_argument("--name", default="tinap", help="Name of the test")
     args = parser.parse_args()
 
