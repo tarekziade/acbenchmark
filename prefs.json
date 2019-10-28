@@ -1,0 +1,8 @@
+{
+ "firefox.geckoProfiler": "true",
+ "firefox.geckoProfilerParams.interval": 10,
+ "firefox.geckoProfilerParams.features": "js,stackwalk,leaf",
+ "firefox.geckoProfilerParams.threads": "GeckoMain,Compositor,ssl,socket,url,bhm,dns",
+ "firefox.preference", "network.dns.forceResolve:%(host_ip)s",
+ "firefox.acceptInsecureCerts": "true"
+}
